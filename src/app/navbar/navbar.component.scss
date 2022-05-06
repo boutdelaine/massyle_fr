@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: rgb(117, 117, 172);
+    min-height: 5em;
+}
+
+.home{
+    text-transform: uppercase;
+}
+
+.nav-elements{
+    display: flex;
+    background-color: chartreuse;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.nav-elements li{
+    list-style: none;
+}
