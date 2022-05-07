@@ -1,3 +1,33 @@
 @import '~bootstrap/scss/bootstrap';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section {
+    height: 100vh;
+    display: flex;
+    color: white;
+}
+
+.portfolio {
+    background: #28a745;
+}
+
+.about {
+    background: #e29725;
+}
+
+.contact {
+    background: #4c84aa;
+}
+
+.four {
+    background: #c24b72;
+}
