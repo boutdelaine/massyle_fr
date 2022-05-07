@@ -1,0 +1,17 @@
+section {
+    height: 100vh;
+    display: flex;
+    color: white;
+    scroll-snap-align: start;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
+.contact {
+    background: #4c84aa;
+}

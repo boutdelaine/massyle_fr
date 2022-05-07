@@ -4,6 +4,13 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 1000;
     display: inline-block;
+    &:hover{
+        color:#28a745;
+    }
+    &:active{
+        border: 2px solid #28a745;
+        color: #28a745;
+    }
 }
 
 nav{

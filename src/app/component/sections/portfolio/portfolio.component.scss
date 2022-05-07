@@ -1,0 +1,19 @@
+section {
+    height: 100vh;
+    display: flex;
+    color: white;
+    scroll-snap-align: start;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
+.portfolio {
+    background: white;
+    color: #2c3e50;
+    text-transform: uppercase;
+}
