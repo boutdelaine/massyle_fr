@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { NavbarComponent } from './component/components/navbar/navbar.component';
 import { FooterComponent } from './component/components/footer/footer.component';
 import { WelcomeComponent } from './component/sections/welcome/welcome.component';
 import { PortfolioComponent } from './component/sections/portfolio/portfolio.component';
