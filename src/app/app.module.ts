@@ -26,7 +26,7 @@ import { BlogComponent } from './component/pages/blog/blog.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
